@@ -14,5 +14,5 @@ console.log(myFlashcards[i].question);
   ++i;
 }
 function buttonClicked(event) {
-       document.getElementById("demo").innerHTML =console.log(myFlashcards[i].answer);
+       document.getElementById("demo").innerHTML =event.(console.log(myFlashcards[i].answer)).innerHTML;
 }
