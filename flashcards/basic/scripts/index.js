@@ -13,9 +13,6 @@ while (i<myFlashcards.length){
 console.log(myFlashcards[i].question);
   ++i;
 }
-document.querySelector('html').onclick = function() {
-    console.log(myFlashcards[i].question);
-}
 
 function buttonClicked(event) {
        document.getElementById("demo").innerHTML =console.log(myFlashcards[i].answer);
