@@ -13,4 +13,6 @@ while (i<myFlashcards.length){
 console.log(myFlashcards[i].question);
   ++i;
 }
-
+function buttonClicked(event) {
+       document.getElementById("demo").innerHTML =console.log(myFlashcards[i].answer);
+}
